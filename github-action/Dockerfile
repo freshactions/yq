@@ -2,7 +2,7 @@ FROM mikefarah/yq:4
 
 COPY entrypoint.sh /entrypoint.sh
 
-# this seems to be the default user in github actions
+# this seems to be the default user in github actions testing
 USER 1001
 
 ENTRYPOINT ["/entrypoint.sh"]
